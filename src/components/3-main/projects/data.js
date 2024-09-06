@@ -130,7 +130,7 @@ export const data = [
     title: "Full Authentication App",
     desc: "Full Authentication App application is a backend web project developed using Node.js and Express.js for building the API infrastructure. It integrates MongoDB through Mongoose to ensure efficient database management. The app focuses on security with features like password hashing using bcrypt and user authentication via JWT (jsonwebtoken). It also supports CORS for cross-origin requests and uses dotenv to manage environment variables securely. The cookie-parser module is included for handling cookies in the application. Development is made more efficient with the inclusion of Nodemon for real-time updates, making it suitable for backend services.",
     category: "Node",
-    image: "/img/Cloud-Hosting.webp",
+    image: "/img/Auth_B.jpg",
     deploy: "https://github.com/MousaSalib/Full-Authentication-App.git",
     github: "https://github.com/MousaSalib/Full-Authentication-App.git",
   },
