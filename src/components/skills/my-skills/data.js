@@ -33,7 +33,7 @@ export const data = [
     id: 6,
     title: "TypeScript",
     category: "frontend",
-    image: "/skills-images/Tailwind-CSS.png",
+    image: "/skills-images/TS.jpg",
   },
   {
     id: 7,
