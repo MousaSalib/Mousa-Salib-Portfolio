@@ -78,6 +78,10 @@ section.contact-us .submit:hover {
 }
 
 section.contact-us .contact-us-p {
+    color: var(--subtitle);
+}
+
+.light section.contact-us .contact-us-p {
     color: #232324;
 }
 
