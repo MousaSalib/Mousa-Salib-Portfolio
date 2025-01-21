@@ -141,6 +141,16 @@ export const data = [
     category: "React",
     image: "/img/PortfolioR.jpg",
     deploy: "https://frontend-part-portfolio-in-react.vercel.app/",
-    github: "https://github.com/MousaSalib/frontend_part_portfolio_in_react.git",
+    github:
+      "https://github.com/MousaSalib/frontend_part_portfolio_in_react.git",
+  },
+  {
+    id: 17,
+    title: "React.js E-commerce App with Vite",
+    desc: "This project is an e-commerce application developed with React, Vite, TypeScript, Redux Toolkit, Axios, Bootstrap, Lottie React, and JSON Server for mock API handling and authentication. It includes pages like Home, Category, About Us, Login, Register, Cart, and Wishlist. The app features 5 categories, each containing a set of products, providing a well-structured shopping experience. It is designed for seamless user experience with features such as form handling using React Hook Form and schema validation with Zod. The backend is powered by JSON Server and JSON Server Auth, simulating a real API for development.",
+    category: "React",
+    image: "/img/eCom.jpg",
+    deploy: "https://e-commerce-frontend-tau-five.vercel.app/",
+    github: "https://github.com/MousaSalib/eCommerce-Frontend.git",
   },
 ];

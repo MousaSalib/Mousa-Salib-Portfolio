@@ -102,9 +102,13 @@ const Main = () => {
                 animate={{ transform: "scale(1)" }}
                 transition={{ type: "spring", damping: 8, stiffness: 50 }}
               >
-                <img src={item.image} alt="image-card" />
+                <img src={item.image} alt={item.title} />
                 <div className="box">
-                  <h1 className="title">{item.title}</h1>
+                  <h1 className="title">
+                    {item.title.length > 20
+                      ? `${item.title.substring(0, 20)}...`
+                      : item.title}
+                  </h1>
                   <p className="sub-title">
                     {item.desc.length > 100
                       ? `${item.desc.substring(0, 100)}...`
@@ -125,7 +129,9 @@ const Main = () => {
                     </div>
                     <button
                       className="link flex"
-                      onClick={() => handleMoreClick(item.desc, item.title, item.image)}
+                      onClick={() =>
+                        handleMoreClick(item.desc, item.title, item.image)
+                      }
                     >
                       Description
                       <span
